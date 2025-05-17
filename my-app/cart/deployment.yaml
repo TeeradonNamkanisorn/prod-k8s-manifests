@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - image: nginx
-          name: "custom-name"
+          name: "simple-deploy"
           resources: {}
 status: {}

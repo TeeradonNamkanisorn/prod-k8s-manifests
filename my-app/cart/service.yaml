@@ -4,8 +4,8 @@ metadata:
   name: simple-deploy
 spec:
   ports:
-    - port: 8080
+    - port: 7070
       protocol: TCP
-      targetPort: 80
+      targetPort: 7070
   selector:
     app: simple-deploy
